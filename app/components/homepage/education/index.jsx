@@ -37,7 +37,20 @@ function Education() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
           <div className="flex justify-center items-start">
             <div className="w-3/4 h-3/4 flex items-center justify-center">
-              <div className="text-6xl">🎓</div>
+              <div className="grid grid-cols-2 gap-4 p-8">
+                <div className="text-5xl opacity-60 hover:opacity-100 transition-opacity duration-300 animate-pulse delay-100">
+                  📚
+                </div>
+                <div className="text-5xl opacity-60 hover:opacity-100 transition-opacity duration-300 animate-pulse delay-300">
+                  🎓
+                </div>
+                <div className="text-5xl opacity-60 hover:opacity-100 transition-opacity duration-300 animate-pulse delay-500">
+                  📝
+                </div>
+                <div className="text-5xl opacity-60 hover:opacity-100 transition-opacity duration-300 animate-pulse delay-700">
+                  🏆
+                </div>
+              </div>
             </div>
           </div>
 
