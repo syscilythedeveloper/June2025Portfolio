@@ -9,7 +9,7 @@ import "./css/globals.scss";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Portfolio of Syscily Brown - Software Developer",
+  title: "Syscily Brown - Software Developer",
   description:
     "This is the portfolio of Syscily Brown, a software developer specializing in web development, mobile applications, and AI solutions. Explore my projects, skills, and experience.",
 };
