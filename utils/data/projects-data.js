@@ -32,12 +32,12 @@ export const projectsData = [
       "Radix UI",
       "TypeScript",
     ],
-    myRole: "Full Stack Developer",
+    role: "Full Stack Developer",
     description:
       "Built conversational AI fitness application using Next.js and Google GenAI to generate personalized workout and diet plans through natural language interaction. Integrated Vapi voice AI agent for seamless user conversations, enabling hands-free plan generation and enhanced user experience. Implemented comprehensive fitness tracking system with Convex backend for real-time progress monitoring and plan history management.",
 
     github: "https://github.com/syscilythedeveloper/aiTrainer",
-    liveDemo: "https://ai-trainer-six.vercel.app/.app/",
+    liveDemo: "https://ai-trainer-six.vercel.app/",
     videoDemo: "https://youtu.be/BHndYtafCUQ",
   },
   {
@@ -52,12 +52,11 @@ export const projectsData = [
       "RapidAPI",
       "TypeScript",
     ],
-    myRole: "Full Stack Developer",
+    role: "Full Stack Developer",
     description:
       "Built AI-powered video analysis application using Next.js and Google Generative AI with RAG architecture to generate contextual responses from YouTube video transcripts. Implemented vector-based retrieval system processing YouTube transcripts through RapidAPI for accurate timestamp-based content querying and navigation. Developed interactive chat interface enabling natural language queries about video content with AI responses linked to specific video moments.",
     github: "https://github.com/syscilythedeveloper/video-parser",
-    liveDemo:
-      "htthttps://video-parser-hazel.vercel.app/ps://ai-trainer-six.vercel.app/.app/",
+    liveDemo: "https://video-parser-hazel.vercel.app/",
     videoDemo: "https://youtu.be/wD1hfj37pZE",
   },
 ];
