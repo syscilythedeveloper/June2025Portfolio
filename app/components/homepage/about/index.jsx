@@ -10,17 +10,37 @@ function AboutSection() {
       className="my-12 lg:my-16 relative"
     >
       <div className="hidden lg:flex flex-col items-center absolute top-16 -right-8">
-        <span className="bg-[#1a1443] w-fit text-white rotate-90 p-2 px-5 text-xl rounded-md">
+        <span className="bg-[#1a1443] w-fit text-white rotate-90 p-2 px-1 text-2xl rounded-md ">
           About Me
         </span>
         <span className="h-36 w-[2px] bg-[#1a1443]"></span>
       </div>
+      <div className="text-center mb-8">
+        <h2 className="text-3xl lg:text-4xl font-bold bg-gradient-to-r from-teal-400 via-emerald-500 to-cyan-400 bg-clip-text text-transparent">
+          Syscily The Developer
+        </h2>
+        <div className="w-24 h-1 bg-gradient-to-r from-teal-400 to-emerald-500 mx-auto mt-2 rounded-full"></div>
+      </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
         <div className="order-2 lg:order-1">
-          <p className="font-medium mb-5 text-teal-500 text-xl ">About Me</p>
-          <p className="text-gray-200 text-sm lg:text-lg">
-            {personalData.description}
-          </p>
+          <div className="text-gray-200 text-sm lg:text-lg space-y-4">
+            <p>
+              My name is Syscily Brown and I&apos;m a lifelong learner who
+              taught myself how to code. I excel at building AI-powered
+              applications using React and TypeScript, and I love creating
+              solutions that truly serve their intended audience.
+            </p>
+            <p>
+              What makes me different? Prior to becoming a software engineer, I
+              was an elementary school teacher and Mathematics Program Manager.
+              My superpower is making complex topics easy for anyone to
+              understand. The same skills that drove 119% improvement in student
+              performance—understanding user needs, analyzing data, and
+              explaining complex concepts—are what make me an effective
+              developer who can tackle technical challenges and collaborate
+              seamlessly with cross-functional teams.
+            </p>
+          </div>
         </div>
         <div className="flex justify-center order-1 lg:order-2">
           <div className="relative group">
