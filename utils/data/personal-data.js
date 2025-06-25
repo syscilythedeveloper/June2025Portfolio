@@ -11,5 +11,5 @@ export const personalData = {
   medium: "https://medium.com/@syscily.brown",
   devUsername: "said7388",
   resume:
-    "https://drive.google.com/file/d/1iztZWvo3i7Z5fXM6AdnAZAmyQskP8V5m/view?usp=sharing",
+    "https://drive.google.com/file/d/15n3SIHNb3bKlf8p95_u-TMpREIKHmLM5/view?usp=sharing",
 };
