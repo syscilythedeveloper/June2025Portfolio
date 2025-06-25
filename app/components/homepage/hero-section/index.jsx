@@ -23,7 +23,7 @@ function HeroSection() {
         <div className="order-2 lg:order-1 flex flex-col items-start justify-center p-2 pb-20 md:pb-10 lg:pt-10">
           <h1 className="text-3xl font-bold leading-tight text-white md:font-extrabold lg:text-[2.8rem] lg:leading-[3.2rem] xl:text-[3.2rem] xl:leading-[3.8rem]">
             <span className="block mb-2 text-2xl md:text-3xl lg:text-4xl font-medium text-gray-300">
-              Hi There! 👋
+              Hi There! 👋🏾
             </span>
             <span className="block mb-3">
               I&apos;m {""}
