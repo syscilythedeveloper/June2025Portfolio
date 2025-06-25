@@ -26,7 +26,7 @@ function HeroSection() {
               Hi There! 👋
             </span>
             <span className="block mb-3">
-              I'm{" "}
+              I'm
               <span className="text-pink-500 font-extrabold bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text text-transparent">
                 {personalData.name}
               </span>
@@ -35,7 +35,7 @@ function HeroSection() {
               From classroom to code —
             </span>
             <span className="block">
-              I'm a{" "}
+              I'm a
               <span className="text-teal-500 font-extrabold relative">
                 {personalData.designation}
               </span>
