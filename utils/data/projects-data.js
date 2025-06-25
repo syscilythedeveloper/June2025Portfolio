@@ -7,7 +7,7 @@ export const projectsData = [
     tools: [
       "Next.js",
       "React 19",
-      "Google GenAI",
+      "Google Generative AI",
       "Algolia",
       "MUI",
       "Tailwind CSS",
@@ -26,7 +26,7 @@ export const projectsData = [
       "React 19",
       "Convex",
       "Vapi",
-      "Google GenAI",
+      "Google Generative AI",
       "Clerk",
       "Tailwind CSS",
       "Radix UI",
@@ -34,7 +34,7 @@ export const projectsData = [
     ],
     role: "Full Stack Developer",
     description:
-      "Built conversational AI fitness application using Next.js and Google GenAI to generate personalized workout and diet plans through natural language interaction. Integrated Vapi voice AI agent for seamless user conversations, enabling hands-free plan generation and enhanced user experience. Implemented comprehensive fitness tracking system with Convex backend for real-time progress monitoring and plan history management.",
+      "Built conversational AI fitness application using Next.js and Google Generative AI to generate personalized workout and diet plans through natural language interaction. Integrated Vapi voice AI agent for seamless user conversations, enabling hands-free plan generation and enhanced user experience. Implemented comprehensive fitness tracking system with Convex backend for real-time progress monitoring and plan history management.",
 
     github: "https://github.com/syscilythedeveloper/aiTrainer",
     liveDemo: "https://ai-trainer-six.vercel.app/",
