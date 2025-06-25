@@ -43,8 +43,8 @@ function ContactSection() {
             <div className="bg-gradient-to-r from-[#0d1224] to-[#0a0d37] border border-[#1b2c68a0] rounded-lg p-6 relative overflow-hidden">
               <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-[#14b8a6] to-transparent"></div>
               <blockquote className="text-gray-200 text-sm md:text-base leading-relaxed mb-4 italic">
-                "In a world of immense change, it is the learner who will
-                inherit the future."
+                In a world of immense change, it is the learner who will inherit
+                the future.
               </blockquote>
               <cite className="text-[#14b8a6] text-sm font-medium">
                 - Satya Nadella
