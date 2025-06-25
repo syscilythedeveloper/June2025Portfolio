@@ -1,20 +1,21 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor Degree",
-    duration: "2020 - Present",
-    institution: "National University of Bangladesh",
+    title: "Masters Degree",
+    duration: "2015 - 2017",
+    institution: "Relay Graduate School of Education",
   },
   {
     id: 2,
-    title: "Higher Secondary Certificate",
-    duration: "2018 - 2020",
-    institution: "Noakhali Islamia Kamil Madrasah",
+    title: "Bachelor's Degree",
+    duration: "2011 - 2015",
+    institution: "Howard University",
+    honors: "Magna Cum Laude",
   },
   {
     id: 3,
-    title: "Secondary School Certificate",
-    duration: "2008 - 2018",
-    institution: "Baitus Saif Islamia Madrasah",
-  }
-]
+    title: "Full-Stack Web Devlopment Bootcamp",
+    duration: "2020-2021",
+    institution: "Springboard",
+  },
+];

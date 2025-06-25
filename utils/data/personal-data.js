@@ -1,17 +1,15 @@
 export const personalData = {
-  name: "ABU SAID",
-  profile: '/profile.png',
-  designation: "Software Developer",
-  description: "My name is ABU SAID. I am a professional and enthusiastic programmer in my daily life. I am a quick learner with a self-learning attitude. I love to learn and explore new technologies and am passionate about problem-solving. I love almost all the stacks of web application development and love to make the web more open to the world. My core skill is based on JavaScript and I love to do most of the things using JavaScript. I am available for any kind of job opportunity that suits my skills and interests.",
-  email: 'abusaid7388@gmail.com',
-  phone: '+8801608797655',
-  address: 'Middle Badda, Dhaka, Bangladesh - 1212 ',
-  github: 'https://github.com/said7388',
-  facebook: 'https://www.facebook.com/abusaid.riyaz/',
-  linkedIn: 'https://www.linkedin.com/in/abu-said-bd/',
-  twitter: 'https://twitter.com/said7388',
-  stackOverflow: 'https://stackoverflow.com/users/16840768/abu-said',
-  leetcode: "https://leetcode.com/said3812/",
+  name: "Syscily Brown",
+  profile: "/webDevSolo.jpg",
+  designation: "Software Engineer",
+  description:
+    "My name is Syscily Brown and I'm a lifelong learner who taught myself how to code. I excel at building AI-powered applications using React and TypeScript, and I love creating solutions that truly serve their intended audience. What makes me different? Prior to becoming a software engineer, I was an elementary school teacher and Mathematics Program Manager. My superpower is making complex topics easy for anyone to understand. The same skills that drove 119% improvement in student performance—understanding user needs, analyzing data, and explaining complex concepts—are what make me an effective developer who can tackle technical challenges and collaborate seamlessly with cross-functional teams.",
+  email: "syscily.brown@gmail.com",
+  address: "USA",
+  github: "https://github.com/syscilythedeveloper",
+  linkedIn: "https://www.linkedin.com/in/syscilybrown",
+  medium: "https://medium.com/@syscily.brown",
   devUsername: "said7388",
-  resume: "https://drive.google.com/file/d/1eyutpKFFhJ9X-qpQGKhUNnVRkB5Wer00/view?usp=sharing"
-}
+  resume:
+    "https://drive.google.com/file/d/1iztZWvo3i7Z5fXM6AdnAZAmyQskP8V5m/view?usp=sharing",
+};

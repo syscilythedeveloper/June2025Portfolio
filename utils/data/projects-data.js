@@ -1,42 +1,66 @@
 export const projectsData = [
-    {
-        id: 1,
-        name: 'AI Powered Financial App',
-        description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
-        role: 'Backend Developer',
-        code: '',
-        demo: '',
-    },
-    {
-        id: 2,
-        name: 'Travel Agency App',
-        description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
-        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
-        role: 'Full Stack Developer',
-        code: '',
-        demo: '',
-    },
-    {
-        id: 3,
-        name: 'AI Powered Real Estate',
-        description: 'My team built an AI-based real estate app using Replicate API and OpenAI. We used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose to develop the API. We utilized NextJS, Formik, TailwindCSS, and other npm libraries for the UI. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
-        tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
-        code: '',
-        role: 'Full Stack Developer',
-        demo: '',
-    },
-    {
-        id: 4,
-        name: 'Newsroom Management',
-        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-        tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
-        code: '',
-        demo: '',
-        role: 'Full Stack Developer',
-    }
-];
+  {
+    id: 1,
+    name: "Chefmate.ai",
+    description:
+      "Built AI-powered culinary assistant application using Next.js and Google Generative AI to provide personalized recipe customizations, ingredient substitutions, and step-by-step cooking guidance. Integrated Algolia search engine for lightning-fast recipe discovery with advanced filtering and real-time search suggestions. Developed conversational AI chat interface enabling natural language queries for nutrition analysis, dietary modifications, and culinary technique explanations.",
+    tools: [
+      "Next.js",
+      "React 19",
+      "Google GenAI",
+      "Algolia",
+      "MUI",
+      "Tailwind CSS",
+      "TypeScript",
+    ],
+    role: "Full Stack Developer",
+    github: "https://github.com/syscilythedeveloper/chefmate.ai",
+    liveDemo: "https://chefmate-ai.vercel.app/",
+    videoDemo: "https://www.youtube.com/watch?v=8f0ZMtuNvMo",
+  },
+  {
+    id: 2,
+    name: "myTrainer+",
+    tools: [
+      "Next.js",
+      "React 19",
+      "Convex",
+      "Vapi",
+      "Google GenAI",
+      "Clerk",
+      "Tailwind CSS",
+      "Radix UI",
+      "TypeScript",
+    ],
+    myRole: "Full Stack Developer",
+    description:
+      "Built conversational AI fitness application using Next.js and Google GenAI to generate personalized workout and diet plans through natural language interaction. Integrated Vapi voice AI agent for seamless user conversations, enabling hands-free plan generation and enhanced user experience. Implemented comprehensive fitness tracking system with Convex backend for real-time progress monitoring and plan history management.",
 
+    github: "https://github.com/syscilythedeveloper/aiTrainer",
+    liveDemo: "https://ai-trainer-six.vercel.app/.app/",
+    videoDemo: "https://youtu.be/BHndYtafCUQ",
+  },
+  {
+    id: 3,
+    name: "TubeChat",
+    tools: [
+      "Next.js",
+      "React 19",
+      "Google Generative AI",
+      "Material UI",
+      "Tailwind CSS",
+      "RapidAPI",
+      "TypeScript",
+    ],
+    myRole: "Full Stack Developer",
+    description:
+      "Built AI-powered video analysis application using Next.js and Google Generative AI with RAG architecture to generate contextual responses from YouTube video transcripts. Implemented vector-based retrieval system processing YouTube transcripts through RapidAPI for accurate timestamp-based content querying and navigation. Developed interactive chat interface enabling natural language queries about video content with AI responses linked to specific video moments.",
+    github: "https://github.com/syscilythedeveloper/video-parser",
+    liveDemo:
+      "htthttps://video-parser-hazel.vercel.app/ps://ai-trainer-six.vercel.app/.app/",
+    videoDemo: "https://youtu.be/wD1hfj37pZE",
+  },
+];
 
 // Do not remove any property.
 // Leave it blank instead as shown below
