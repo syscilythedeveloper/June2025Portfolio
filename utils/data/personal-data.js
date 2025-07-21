@@ -8,8 +8,8 @@ export const personalData = {
   address: "USA",
   github: "https://github.com/syscilythedeveloper",
   linkedIn: "https://www.linkedin.com/in/syscilybrown",
-  medium: "https://medium.com/@syscily.brown",
-  devUsername: "said7388",
+  medium: "https://medium.com/@culturecoded.dev",
+
   resume:
     "https://drive.google.com/file/d/15n3SIHNb3bKlf8p95_u-TMpREIKHmLM5/view?usp=sharing",
 };
