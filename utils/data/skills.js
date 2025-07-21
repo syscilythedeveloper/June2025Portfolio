@@ -17,4 +17,6 @@ export const skillsData = [
   "Node JS",
   "Convex",
   "Python",
+  "Nginx",
+  "Firebase",
 ];
