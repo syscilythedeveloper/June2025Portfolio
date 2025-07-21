@@ -27,7 +27,7 @@ const Projects = () => {
       </div>
 
       <div className="pt-24">
-        <div className="flex flex-col gap-4 max-w-4xl mx-auto">
+        <div className="flex flex-col gap-4 max-w-4xl mx-auto px-4">
           {projectsData.map((project, index) => (
             <div
               key={index}
@@ -35,39 +35,39 @@ const Projects = () => {
             >
               {/* Project Header with Terminal Dots */}
               <div
-                className="bg-gradient-to-r from-[#0d1224] to-[#0a0d37] px-6 py-4 cursor-pointer hover:bg-gradient-to-r hover:from-[#1a1443] hover:to-[#0d1224] transition-all duration-300"
+                className="bg-gradient-to-r from-[#0d1224] to-[#0a0d37] px-4 lg:px-6 py-4 cursor-pointer hover:bg-gradient-to-r hover:from-[#1a1443] hover:to-[#0d1224] transition-all duration-300 min-h-[60px] flex items-center"
                 onClick={() => toggleProject(index)}
               >
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center space-x-4">
+                <div className="flex items-center justify-between w-full">
+                  <div className="flex items-center gap-3">
                     {/* Terminal Dots */}
-                    <div className="flex space-x-2">
+                    <div className="flex space-x-2 flex-shrink-0">
                       <div className="h-3 w-3 rounded-full bg-red-400"></div>
                       <div className="h-3 w-3 rounded-full bg-orange-400"></div>
                       <div className="h-3 w-3 rounded-full bg-green-400"></div>
                     </div>
-                    <h3 className="text-teal-400 text-lg font-semibold">
-                      {project.name}
-                    </h3>
-                    {project.status === "In Progress" && (
-                      <span className="text-xs px-2 py-1 bg-yellow-500/20 text-yellow-300 rounded-full">
-                        🚧 In Progress
-                      </span>
-                    )}
-                    {project.featured === "Web Dev Challenge" && (
-                      <Link
-                        href="https://codetv.dev/series/web-dev-challenge/s2/e6-future-of-ai-native-ux"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <span className="text-xs px-2 py-1 bg-purple-500/20 text-purple-300 rounded-full">
-                          🎥 Featured on CodeTV
-                        </span>
-                      </Link>
-                    )}
+
+                    <div className="flex flex-col sm:flex-row sm:items-center gap-2">
+                      <h3 className="text-teal-400 text-base lg:text-lg font-semibold">
+                        {project.name}
+                      </h3>
+                      <div className="flex flex-wrap gap-2">
+                        {project.status === "In Progress" && (
+                          <span className="text-xs px-2 py-1 bg-yellow-500/20 text-yellow-300 rounded-full">
+                            🚧 In Progress
+                          </span>
+                        )}
+                        {project.featured === "Web Dev Challenge" && (
+                          <span className="text-xs px-2 py-1 bg-purple-500/20 text-purple-300 rounded-full">
+                            🎥 Featured
+                          </span>
+                        )}
+                      </div>
+                    </div>
                   </div>
+
                   <div
-                    className={`transform transition-transform duration-300 ${
+                    className={`transform transition-transform duration-300 flex-shrink-0 ${
                       expandedProject === index ? "rotate-180" : ""
                     }`}
                   >
