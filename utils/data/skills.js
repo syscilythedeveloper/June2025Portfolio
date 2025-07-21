@@ -16,4 +16,5 @@ export const skillsData = [
   "Tailwind",
   "Node JS",
   "Convex",
+  "Python",
 ];
