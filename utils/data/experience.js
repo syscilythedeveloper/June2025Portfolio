@@ -19,8 +19,8 @@ export const experiences = [
   },
   {
     id: 4,
-    title: "Mathematics Instructor",
-    company: "District of Columbia Public Schools",
-    duration: "July 2022 - January 2025",
+    title: "Math Program Manager and Teacher",
+    company: "K12 Public Schools",
+    duration: "July 2015 - January 2025",
   },
 ];
