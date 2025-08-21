@@ -11,5 +11,5 @@ export const personalData = {
   medium: "https://medium.com/@culturecoded.dev",
 
   resume:
-    "https://drive.google.com/file/d/1-I1ClbZCdAS8iTGxPfP0lyuJwgUCJSAz/view?usp=sharing",
+    "https://drive.google.com/file/d/1KTcnuZM-GxFq8Nmg_nzT2J9bxbRQaaqM/view?usp=sharing",
 };
