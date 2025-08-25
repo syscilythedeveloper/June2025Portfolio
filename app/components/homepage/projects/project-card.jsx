@@ -61,18 +61,20 @@ function ProjectCard({ project }) {
             <span className="text-gray-400">,</span>
           </div>
 
-          <div className="ml-4 lg:ml-8 mr-2">
-            <span className="text-white">Live Demo:</span>
-            <a
-              href={project.liveDemo}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-cyan-400 hover:text-cyan-300 transition-colors duration-200"
-            >
-              {" " + project.name}
-            </a>
-            <span className="text-gray-400">,</span>
-          </div>
+          {project.liveDemo && (
+            <div className="ml-4 lg:ml-8 mr-2">
+              <span className="text-white">Live Demo:</span>
+              <a
+                href={project.liveDemo}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-cyan-400 hover:text-cyan-300 transition-colors duration-200"
+              >
+                {" " + project.name}
+              </a>
+              <span className="text-gray-400">,</span>
+            </div>
+          )}
 
           {project.videoDemo && (
             <div className="ml-4 lg:ml-8 mr-2">

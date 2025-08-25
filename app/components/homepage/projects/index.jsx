@@ -2,7 +2,6 @@
 import { projectsData } from "@/utils/data/projects-data";
 import ProjectCard from "./project-card";
 import { useState } from "react";
-import Link from "next/link";
 
 const Projects = () => {
   const [expandedProject, setExpandedProject] = useState(null);
